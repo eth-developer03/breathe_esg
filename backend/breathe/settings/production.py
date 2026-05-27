@@ -31,3 +31,12 @@ if os.environ.get('DATABASE_URL'):
         conn_max_age=600,
         ssl_require=True,
     )
+
+# JSON-only — disables browsable API which references DRF static files not available on Vercel
+REST_FRAMEWORK = {
+    **REST_FRAMEWORK,
+    'DEFAULT_RENDERER_CLASSES': ['rest_framework.renderers.JSONRenderer'],
+}
+
+# Don't require a pre-built manifest; collectstatic may not run in serverless builds
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
