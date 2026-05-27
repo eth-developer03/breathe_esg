@@ -1,0 +1,10 @@
+Account Number,Meter ID,Service Address,Billing Period Start,Billing Period End,Consumption (kWh),Peak Demand (kW),Rate Schedule,Bill Amount (USD),Currency,Country,Utility Name
+ACC-78234,MTR-A102,"Unit 1 Manchester Industrial Estate, Trafford Park, Manchester M17 1PL",18/12/2023,19/01/2024,42580,285.3,I-6 Industrial TOU,4891.20,GBP,GB,National Grid
+ACC-78234,MTR-A102,"Unit 1 Manchester Industrial Estate, Trafford Park, Manchester M17 1PL",19/01/2024,18/02/2024,39240,271.8,I-6 Industrial TOU,4511.60,GBP,GB,National Grid
+ACC-78234,MTR-A102,"Unit 1 Manchester Industrial Estate, Trafford Park, Manchester M17 1PL",18/02/2024,19/03/2024,44120,298.1,I-6 Industrial TOU,5073.80,GBP,GB,National Grid
+ACC-78235,MTR-B205,"Unit 2 Manchester Industrial Estate, Trafford Park, Manchester M17 1PL",15/12/2023,16/01/2024,18340,142.6,I-6 Industrial TOU,2108.10,GBP,GB,National Grid
+ACC-78235,MTR-B205,"Unit 2 Manchester Industrial Estate, Trafford Park, Manchester M17 1PL",16/01/2024,15/02/2024,16980,128.9,I-6 Industrial TOU,1952.70,GBP,GB,National Grid
+ACC-78235,MTR-B205,"Unit 2 Manchester Industrial Estate, Trafford Park, Manchester M17 1PL",15/02/2024,16/03/2024,19560,155.2,I-6 Industrial TOU,2249.40,GBP,GB,National Grid
+ACC-78236,MTR-C301,"Birmingham Distribution Centre, Aston Cross Business Village, B6 5RQ",20/12/2023,22/01/2024,28750,198.4,I-4 Commercial,3306.25,GBP,GB,Western Power Distribution
+ACC-78236,MTR-C301,"Birmingham Distribution Centre, Aston Cross Business Village, B6 5RQ",22/01/2024,21/02/2024,26490,181.2,I-4 Commercial,3046.35,GBP,GB,Western Power Distribution
+ACC-78236,MTR-C301,"Birmingham Distribution Centre, Aston Cross Business Village, B6 5RQ",21/02/2024,22/03/2024,31200,214.7,I-4 Commercial,3588.00,GBP,GB,Western Power Distribution

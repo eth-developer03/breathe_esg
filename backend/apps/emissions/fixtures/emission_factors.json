@@ -1,0 +1,197 @@
+[
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000001",
+    "fields": {
+      "category": "diesel",
+      "scope": 1,
+      "factor_kg_co2e_per_unit": "2.68697",
+      "unit": "litre",
+      "source": "DEFRA 2023 GHG Conversion Factors",
+      "year": 2023,
+      "notes": "Road diesel, includes WTT upstream. CO2e includes CO2, CH4, N2O."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000002",
+    "fields": {
+      "category": "petrol",
+      "scope": 1,
+      "factor_kg_co2e_per_unit": "2.31369",
+      "unit": "litre",
+      "source": "DEFRA 2023 GHG Conversion Factors",
+      "year": 2023,
+      "notes": "Motor gasoline/petrol, includes WTT upstream."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000003",
+    "fields": {
+      "category": "natural_gas",
+      "scope": 1,
+      "factor_kg_co2e_per_unit": "2.04417",
+      "unit": "m3",
+      "source": "DEFRA 2023 GHG Conversion Factors",
+      "year": 2023,
+      "notes": "Natural gas (gross CV basis), per cubic metre."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000004",
+    "fields": {
+      "category": "lpg",
+      "scope": 1,
+      "factor_kg_co2e_per_unit": "1.55493",
+      "unit": "litre",
+      "source": "DEFRA 2023 GHG Conversion Factors",
+      "year": 2023,
+      "notes": "LPG (liquefied petroleum gas), per litre."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000005",
+    "fields": {
+      "category": "fuel_oil",
+      "scope": 1,
+      "factor_kg_co2e_per_unit": "3.17925",
+      "unit": "litre",
+      "source": "DEFRA 2023 GHG Conversion Factors",
+      "year": 2023,
+      "notes": "Heavy fuel oil / residual oil."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000006",
+    "fields": {
+      "category": "electricity_uk_grid",
+      "scope": 2,
+      "factor_kg_co2e_per_unit": "0.20707",
+      "unit": "kWh",
+      "source": "DEFRA 2023 GHG Conversion Factors",
+      "year": 2023,
+      "notes": "UK electricity grid average, location-based. Use market-based factor if REGOs available."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000007",
+    "fields": {
+      "category": "electricity_us_grid",
+      "scope": 2,
+      "factor_kg_co2e_per_unit": "0.38600",
+      "unit": "kWh",
+      "source": "EPA eGRID 2022 National Average",
+      "year": 2022,
+      "notes": "US national average. Sub-regional factors (NPCC, SERC, etc.) preferred when region known."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000008",
+    "fields": {
+      "category": "flight_economy_short",
+      "scope": 3,
+      "factor_kg_co2e_per_unit": "0.25510",
+      "unit": "pkm",
+      "source": "DEFRA 2023 GHG Conversion Factors",
+      "year": 2023,
+      "notes": "Short-haul economy (<3700km). Includes radiative forcing factor of 1.891x."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000009",
+    "fields": {
+      "category": "flight_economy_long",
+      "scope": 3,
+      "factor_kg_co2e_per_unit": "0.14787",
+      "unit": "pkm",
+      "source": "DEFRA 2023 GHG Conversion Factors",
+      "year": 2023,
+      "notes": "Long-haul economy (>=3700km). Lower per-km due to aircraft efficiency at cruise altitude."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000010",
+    "fields": {
+      "category": "flight_business_short",
+      "scope": 3,
+      "factor_kg_co2e_per_unit": "0.37330",
+      "unit": "pkm",
+      "source": "DEFRA 2023 GHG Conversion Factors",
+      "year": 2023,
+      "notes": "Short-haul business class. Higher factor due to seat size multiplier."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000011",
+    "fields": {
+      "category": "flight_business_long",
+      "scope": 3,
+      "factor_kg_co2e_per_unit": "0.42670",
+      "unit": "pkm",
+      "source": "DEFRA 2023 GHG Conversion Factors",
+      "year": 2023,
+      "notes": "Long-haul business class. ~2.9x economy factor (seat size + emissions allocation)."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000012",
+    "fields": {
+      "category": "flight_first_long",
+      "scope": 3,
+      "factor_kg_co2e_per_unit": "0.59970",
+      "unit": "pkm",
+      "source": "DEFRA 2023 GHG Conversion Factors",
+      "year": 2023,
+      "notes": "Long-haul first class. ~4x economy factor."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000013",
+    "fields": {
+      "category": "hotel_uk",
+      "scope": 3,
+      "factor_kg_co2e_per_unit": "36.00000",
+      "unit": "nights",
+      "source": "DEFRA 2023 GHG Conversion Factors",
+      "year": 2023,
+      "notes": "UK hotel average per room-night. Covers energy, food, waste, laundry in-scope."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000014",
+    "fields": {
+      "category": "hotel_global",
+      "scope": 3,
+      "factor_kg_co2e_per_unit": "31.00000",
+      "unit": "nights",
+      "source": "Cornell Hotel Sustainability Benchmarking Index 2022",
+      "year": 2022,
+      "notes": "Global average hotel, per room-night. Wide variance by country and star rating."
+    }
+  },
+  {
+    "model": "emissions.emissionfactor",
+    "pk": "00000001-0000-0000-0000-000000000015",
+    "fields": {
+      "category": "car_average_petrol",
+      "scope": 3,
+      "factor_kg_co2e_per_unit": "0.17068",
+      "unit": "km",
+      "source": "DEFRA 2023 GHG Conversion Factors",
+      "year": 2023,
+      "notes": "Average petrol car, per km. Used for rental cars and rideshare when vehicle type unknown."
+    }
+  }
+]
